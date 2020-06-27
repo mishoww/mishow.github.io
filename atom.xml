@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yj059p.coding-pages.com/</id>
+    <title>少年光谱</title>
+    <updated>2020-06-27T16:22:35.071Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yj059p.coding-pages.com/"/>
+    <link rel="self" href="https://yj059p.coding-pages.com/atom.xml"/>
+    <logo>https://yj059p.coding-pages.com/images/avatar.png</logo>
+    <icon>https://yj059p.coding-pages.com/favicon.ico</icon>
+    <rights>All rights reserved 2020, 少年光谱</rights>
+    <entry>
+        <title type="html"><![CDATA[人间疾苦]]></title>
+        <id>https://yj059p.coding-pages.com/post/ren-jian-ji-ku/</id>
+        <link href="https://yj059p.coding-pages.com/post/ren-jian-ji-ku/">
+        </link>
+        <updated>2020-06-27T16:20:55.000Z</updated>
+        <content type="html"><![CDATA[<p>老福特疯狂屏蔽并且解屏失败。<br>
+不小心把本地文件删了，结果网站重头再来。<br>
+想学着用onedrive，结果莫名其妙把桌面同步，不小心删了，全盘GG。<br>
+重启电脑后默默改桌面……<br>
+啊，难。</p>
+]]></content>
+    </entry>
+</feed>
