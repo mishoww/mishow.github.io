@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yj059p.coding-pages.com/</id>
     <title>少年光谱</title>
-    <updated>2020-07-04T12:50:47.885Z</updated>
+    <updated>2020-07-04T14:57:22.315Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yj059p.coding-pages.com/"/>
     <link rel="self" href="https://yj059p.coding-pages.com/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://yj059p.coding-pages.com/images/avatar.png</logo>
     <icon>https://yj059p.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 少年光谱</rights>
+    <entry>
+        <title type="html"><![CDATA[这武器太好看啦！]]></title>
+        <id>https://yj059p.coding-pages.com/post/zhe-wu-qi-tai-hao-kan-la/</id>
+        <link href="https://yj059p.coding-pages.com/post/zhe-wu-qi-tai-hao-kan-la/">
+        </link>
+        <updated>2020-07-04T14:56:40.000Z</updated>
+        <content type="html"><![CDATA[<p>小蝴蝶bling bling的！<br>
+<img src="https://yj059p.coding-pages.com//post-images/1593874610604.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[连载数据记录]]></title>
         <id>https://yj059p.coding-pages.com/post/lian-zai-shu-ju-ji-lu/</id>
