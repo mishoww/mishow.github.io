@@ -1,120 +1,179 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<title>关于 | 少年光谱</title>
-<link rel="shortcut icon" href="https://mishoww.github.io/favicon.ico">
-<link href="https://mishoww.github.io/styles/main.css" rel="stylesheet">
-<link href="//at.alicdn.com/t/font_1678829_ntebi130zaa.css" rel="stylesheet">
-<link rel="alternate" type="application/rss+xml" title="少年光谱 » Feed" href="https://mishoww.github.io/atom.xml">
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    关于 | 少年光谱
+</title>
+<link rel="shortcut icon" href="https://mishoww.github.io/favicon.ico?v=1594546263479">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://mishoww.github.io/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://mishoww.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
-  <meta name="description" content="待更新。
-" />
-  <meta name="keywords" content="" />
+
+        
 </head>
 
 <body>
-  <div class="main animated">
-    <div class="header animated fadeInDown">
-  <div class="site_title_container">
-    <div class="site_title">
-      <a href="https://mishoww.github.io">
-        少年光谱
-      </a>
-    </div>
-  </div>
-  <div class="my_socials">
-    
-    
-          
-    
-          
-    
-          
-    
-          
-    
-          
-    <a href="https://mishoww.github.io/atom.xml" target="_blank">
-      <i class="iconfont icon-rss"></i></a>
-  </div>
-</div>
-
-<div class="header_menu">
-  
-  
-  <a href="/" class="menu">首页</a>
-  
-
-  
-  <a href="/archives" class="menu">归档</a>
-  
-
-  
-  <a href="/tags" class="menu">标签</a>
-  
-
-  
-  <a href="/post/about" class="menu">关于</a>
-  
-
-  <div class="gridea-search-div">
-    <form id="gridea-search-form" action="https://mishoww.github.io/search/">
-      <input class="gridea-search-input" autocomplete="off" spellcheck="false" name="q" />
-    </form>
-  </div>
-</div>
-
-    <div class="autopagerize_page_element">
-      <div class="content">
-        <div class="post_page">
-          <div class="post animated fadeInDown">
-            <div class="post_title post_detail_title">
-              <h2>
-                <a>
-                  关于</a>
-              </h2>
-              <span class="article-info">2019-01-25, 3 words, 1 min read</span>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://mishoww.github.io">
+                <img class="avatar" src="https://mishoww.github.io/images/avatar.png?v=1594546263479" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    少年光谱
+                </h1>
             </div>
-            <div class="post_content markdown">
-              <p class="md_block">
-                <span class="md_line md_line_start md_line_end">
-                  <p>待更新。</p>
-<br />
-                  
-              </p>
-            </div>
-            <div class="post_footer">
-              
-              
-            </div>
-          </div>
-          
         </div>
-      </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
-  </div>
-  <div class="footer">
-  
-  <div class="powered_by">
-    <a href="https://github.com/tangkaichuan/gridea-theme-one" target="_blank">Theme One,</a>
-    <a href="https://gridea.dev/" target="_blank">Powered by Gridea&#65281;</a>
-  </div>
-  <div class="footer_slogan">
-    你看那宇宙飞快， 你别他又拜。
 </div>
-<div id="back_to_top" class="back_to_top">
-  <span>△</span>
-</div>
-<script src="https://mishoww.github.io/media/scripts/util.js"></script>
 
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            关于
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2019-01-25</time>
+                            
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p>待更新。</p>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://mishoww.github.io/images/avatar.png?v=1594546263479)">
+        </div>
+        <h1 class="id_card-title">
+            少年光谱
+        </h1>
+        <h2 class="id_card-description">
+            你看那宇宙飞快， 你别他又拜。
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://mishoww.github.io/atom.xml" target="_blank">RSS</a>
 </div>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/default.min.css">
-  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
 </body>
 
 </html>
